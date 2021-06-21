@@ -4,4 +4,10 @@ const recipe = {
   potato: 1,
 };
 
+const vegetables = {
+  ...recipe,
+  banana: 3,
+};
+
 console.log(recipe);
+console.log(vegetables);
